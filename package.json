@@ -1,0 +1,29 @@
+{
+  "name": "typescript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tsDesafio1": "npm run ts-node src/ts/desafio1/main.ts",
+    "gulp": "gulp",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0"
+  }
+}

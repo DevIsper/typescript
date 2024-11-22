@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["ES6"],
+    "module": "ES6",           // Gera módulos ES6
+    "target": "ES6",           // Gera código ES6
+    "moduleResolution": "node", // Resolução de módulos tipo Node.js
+    "esModuleInterop": true,   // Permite importação de módulos CommonJS
+    "outDir": "build",        // Pasta de saída
+    "strict": true             // Habilita verificações rigorosas
+  }
+}
